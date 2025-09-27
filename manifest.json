@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Netflix TMDb Ratings",
+  "version": "1.0",
+  "description": "Show TMDb ratings on Netflix overlay",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "https://api.themoviedb.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.netflix.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

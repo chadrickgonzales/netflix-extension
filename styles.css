@@ -1,0 +1,17 @@
+#ratings-overlay {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  z-index: 99999;
+  max-width: 220px;
+  line-height: 1.4em;
+}
+#ratings-overlay a {
+  color: #ffd700;
+  text-decoration: none;
+}
