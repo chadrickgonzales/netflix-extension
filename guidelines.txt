@@ -1,0 +1,22 @@
+🎬 Netflix Ratings Extension - Installation Guide
+
+1. Download and unzip this folder.
+   - Right-click the ZIP file → "Extract All" (Windows)
+   - Or unzip normally on Mac/Linux.
+
+2. Open your browser's extension settings:
+   - For Chrome: type chrome://extensions/ in the address bar
+   - For Edge:   type edge://extensions/ in the address bar
+
+3. Turn on Developer Mode.
+   - Switch is usually at the top-right.
+
+4. Click "Load unpacked".
+   - Select the folder you just unzipped.
+
+5. Done!
+   - Open Netflix, select a movie/series, and the IMDb / Rotten Tomatoes / TMDb ratings will appear inside the info panel.
+
+-------------------------------------
+Updating the Extension:
+- If you get a new version, go to chrome://extensions/, remove the old one, and repeat the steps above.
